@@ -10,12 +10,12 @@
       "name": "outlook",
       "source": {
         "source": "github",
-        "repo": "dbhq-uk/outlook"
+        "repo": "dbhq-uk/outlook-skill"
       },
       "description": "Microsoft 365 email and calendar via the Graph API - inbox, reply-all-safe replies, attachments up to 150 MB, calendar and availability.",
       "author": { "name": "DBHQ" },
       "homepage": "https://dbhq.uk",
-      "repository": "https://github.com/dbhq-uk/outlook",
+      "repository": "https://github.com/dbhq-uk/outlook-skill",
       "license": "MIT",
       "category": "productivity",
       "keywords": ["outlook", "email", "calendar", "microsoft-365", "graph-api"]
@@ -24,12 +24,12 @@
       "name": "trello",
       "source": {
         "source": "github",
-        "repo": "dbhq-uk/trello"
+        "repo": "dbhq-uk/trello-skill"
       },
       "description": "A pack of Trello skills - board, list and card management, shopping-list aisle sort, board status digest, and cross-board due radar.",
       "author": { "name": "DBHQ" },
       "homepage": "https://dbhq.uk",
-      "repository": "https://github.com/dbhq-uk/trello",
+      "repository": "https://github.com/dbhq-uk/trello-skill",
       "license": "MIT",
       "category": "productivity",
       "keywords": ["trello", "kanban", "productivity", "shopping-list"]
