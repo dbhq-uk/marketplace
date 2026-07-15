@@ -7,15 +7,15 @@
   "description": "Free, open-source Claude Code and Codex tools by DBHQ",
   "plugins": [
     {
-      "name": "outlook",
+      "name": "outlook-graph",
       "source": {
         "source": "github",
-        "repo": "dbhq-uk/outlook-skill"
+        "repo": "dbhq-uk/outlook-graph-skill"
       },
       "description": "Microsoft 365 email and calendar via the Graph API - inbox, reply-all-safe replies, attachments up to 150 MB, calendar and availability.",
       "author": { "name": "DBHQ" },
       "homepage": "https://dbhq.uk",
-      "repository": "https://github.com/dbhq-uk/outlook-skill",
+      "repository": "https://github.com/dbhq-uk/outlook-graph-skill",
       "license": "MIT",
       "category": "productivity",
       "keywords": ["outlook", "email", "calendar", "microsoft-365", "graph-api"]
