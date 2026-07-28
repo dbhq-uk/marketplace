@@ -55,14 +55,14 @@
       "name": "legwork",
       "source": {
         "source": "github",
-        "repo": "dbhq-uk/legwork"
+        "repo": "dbhq-uk/legwork-skill"
       },
       "description": "Multi-source research producing citation-tracked findings - evidence persistence, source credibility scoring and claim-level verification gates. Free built-in search first; paid fallback only when a page genuinely cannot be read.",
       "author": {
         "name": "DBHQ"
       },
       "homepage": "https://dbhq.uk",
-      "repository": "https://github.com/dbhq-uk/legwork",
+      "repository": "https://github.com/dbhq-uk/legwork-skill",
       "license": "MIT",
       "category": "productivity",
       "keywords": [
