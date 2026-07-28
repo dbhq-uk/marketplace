@@ -72,6 +72,28 @@
         "web-search",
         "fact-checking"
       ]
+    },
+    {
+      "name": "dovetail",
+      "source": {
+        "source": "github",
+        "repo": "dbhq-uk/dovetail-skill"
+      },
+      "description": "Check whether a repository agrees with itself - broken links, dangling heading anchors, orphaned files, duplicate content and stale translations. Deterministic, seconds to run, and it never modifies the repo it scans.",
+      "author": {
+        "name": "DBHQ"
+      },
+      "homepage": "https://dbhq.uk",
+      "repository": "https://github.com/dbhq-uk/dovetail-skill",
+      "license": "MIT",
+      "category": "development",
+      "keywords": [
+        "documentation",
+        "linting",
+        "ci",
+        "link-checker",
+        "code-quality"
+      ]
     }
   ]
 }
