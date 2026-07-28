@@ -12,13 +12,23 @@
         "source": "github",
         "repo": "dbhq-uk/outlook-graph-skill"
       },
-      "description": "Microsoft 365 email and calendar via the Graph API - inbox, reply-all-safe replies, attachments up to 150 MB, calendar and availability.",
-      "author": { "name": "DBHQ" },
+      "description": "A pack of Outlook skills - Microsoft 365 email and calendar via the Graph API (inbox, reply-all-safe replies, attachments up to 150 MB, calendar and availability), plus offline extraction of PST archives into integrity-verified markdown.",
+      "author": {
+        "name": "DBHQ"
+      },
       "homepage": "https://dbhq.uk",
       "repository": "https://github.com/dbhq-uk/outlook-graph-skill",
       "license": "MIT",
       "category": "productivity",
-      "keywords": ["outlook", "email", "calendar", "microsoft-365", "graph-api"]
+      "keywords": [
+        "outlook",
+        "email",
+        "calendar",
+        "microsoft-365",
+        "graph-api",
+        "pst",
+        "email-archive"
+      ]
     },
     {
       "name": "trello",
@@ -27,12 +37,41 @@
         "repo": "dbhq-uk/trello-skill"
       },
       "description": "A pack of Trello skills - board, list and card management, shopping-list aisle sort, board status digest, and cross-board due radar.",
-      "author": { "name": "DBHQ" },
+      "author": {
+        "name": "DBHQ"
+      },
       "homepage": "https://dbhq.uk",
       "repository": "https://github.com/dbhq-uk/trello-skill",
       "license": "MIT",
       "category": "productivity",
-      "keywords": ["trello", "kanban", "productivity", "shopping-list"]
+      "keywords": [
+        "trello",
+        "kanban",
+        "productivity",
+        "shopping-list"
+      ]
+    },
+    {
+      "name": "legwork",
+      "source": {
+        "source": "github",
+        "repo": "dbhq-uk/legwork"
+      },
+      "description": "Multi-source research producing citation-tracked findings - evidence persistence, source credibility scoring and claim-level verification gates. Free built-in search first; paid fallback only when a page genuinely cannot be read.",
+      "author": {
+        "name": "DBHQ"
+      },
+      "homepage": "https://dbhq.uk",
+      "repository": "https://github.com/dbhq-uk/legwork",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": [
+        "research",
+        "citations",
+        "evidence",
+        "web-search",
+        "fact-checking"
+      ]
     }
   ]
 }
