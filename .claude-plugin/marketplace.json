@@ -94,6 +94,29 @@
         "link-checker",
         "code-quality"
       ]
+    },
+    {
+      "name": "verve",
+      "source": {
+        "source": "github",
+        "repo": "dbhq-uk/verve-skill"
+      },
+      "description": "Strip AI tells from prose and put a human voice back, in British English. A catalogue of tells with before/after for each, four tone presets, three strength levels, and a scored exit gate where fidelity is a veto. Runs in the conversation at no cost.",
+      "author": {
+        "name": "DBHQ"
+      },
+      "homepage": "https://dbhq.uk",
+      "repository": "https://github.com/dbhq-uk/verve-skill",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": [
+        "writing",
+        "editing",
+        "humanise",
+        "ai-detection",
+        "prose",
+        "british-english"
+      ]
     }
   ]
 }

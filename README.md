@@ -26,6 +26,7 @@ This is the DBHQ plugin marketplace for [Claude Code](https://code.claude.com/do
 /plugin install trello@dbhq
 /plugin install legwork@dbhq
 /plugin install dovetail@dbhq
+/plugin install verve@dbhq
 ```
 
 ## What's here
@@ -36,6 +37,7 @@ This is the DBHQ plugin marketplace for [Claude Code](https://code.claude.com/do
 | 📋 **[trello](https://github.com/dbhq-uk/trello-skill)** | A pack of Trello skills - board/list/card management, shopping-list aisle sort, board status digest, and cross-board due radar |
 | 🔎 **[legwork](https://github.com/dbhq-uk/legwork-skill)** | Multi-source research producing citation-tracked findings - evidence persistence, source credibility scoring and claim-level verification gates. Free built-in search first; paid fallback only when a page genuinely cannot be read |
 | 🪵 **[dovetail](https://github.com/dbhq-uk/dovetail-skill)** | Checks whether a repository agrees with itself - broken links, dangling anchors, orphaned files, duplicate content and stale translations. Deterministic and fast enough to gate every pull request; never modifies the repo it scans |
+| ✒️ **[verve](https://github.com/dbhq-uk/verve-skill)** | Strips AI tells from prose and puts a human voice back, in British English - a catalogue of tells with before/after for each, four tone presets, three strength levels, and a scored exit gate where fidelity is a veto rather than an average |
 
 More tools land here as we build them. Each plugin lives in its own repository under [github.com/dbhq-uk](https://github.com/dbhq-uk) and is free to use under the MIT licence.
 
