@@ -117,6 +117,29 @@
         "prose",
         "british-english"
       ]
+    },
+    {
+      "name": "vela",
+      "source": {
+        "source": "github",
+        "repo": "dbhq-uk/vela-skill"
+      },
+      "description": "Compiler-exact code search for .NET - where a symbol is defined, every reference, who calls it, and what a change breaks. Built on Roslyn, so Razor views and Blazor components are indexed rather than skipped. Deterministic, nothing resident, never modifies your repo.",
+      "author": {
+        "name": "DBHQ"
+      },
+      "homepage": "https://dbhq.uk",
+      "repository": "https://github.com/dbhq-uk/vela-skill",
+      "license": "MIT",
+      "category": "development",
+      "keywords": [
+        "dotnet",
+        "csharp",
+        "roslyn",
+        "razor",
+        "blazor",
+        "code-search"
+      ]
     }
   ]
 }

@@ -27,6 +27,7 @@ This is the DBHQ plugin marketplace for [Claude Code](https://code.claude.com/do
 /plugin install legwork@dbhq
 /plugin install dovetail@dbhq
 /plugin install verve@dbhq
+/plugin install vela@dbhq
 ```
 
 ## What's here
@@ -38,6 +39,7 @@ This is the DBHQ plugin marketplace for [Claude Code](https://code.claude.com/do
 | 🔎 **[legwork](https://github.com/dbhq-uk/legwork-skill)** | Multi-source research producing citation-tracked findings - evidence persistence, source credibility scoring and claim-level verification gates. Free built-in search first; paid fallback only when a page genuinely cannot be read |
 | 🪵 **[dovetail](https://github.com/dbhq-uk/dovetail-skill)** | Checks whether a repository agrees with itself - broken links, dangling anchors, orphaned files, duplicate content and stale translations. Deterministic and fast enough to gate every pull request; never modifies the repo it scans |
 | ✒️ **[verve](https://github.com/dbhq-uk/verve-skill)** | Strips AI tells from prose and puts a human voice back, in British English - a catalogue of tells with before/after for each, four tone presets, three strength levels, and a scored exit gate where fidelity is a veto rather than an average |
+| ⛵ **[vela](https://github.com/dbhq-uk/vela-skill)** | Compiler-exact code search for .NET - where a symbol is defined, every reference, who calls it, and what a change breaks. Roslyn-backed, so Razor views and Blazor components are indexed rather than skipped; nothing stays resident and it never modifies your repo |
 
 More tools land here as we build them. Each plugin lives in its own repository under [github.com/dbhq-uk](https://github.com/dbhq-uk) and is free to use under the MIT licence.
 
