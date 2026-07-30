@@ -12,7 +12,7 @@
         "source": "github",
         "repo": "dbhq-uk/outlook-graph-skill"
       },
-      "description": "A pack of Outlook skills - Microsoft 365 email and calendar via the Graph API (inbox, reply-all-safe replies, attachments up to 150 MB, calendar and availability), plus offline extraction of PST archives into integrity-verified markdown.",
+      "description": "A pack of Outlook skills - Microsoft 365 email and calendar via the Graph API (inbox, reply-all-safe replies, attachments up to 150 MB, calendar and availability), plus PST and live-mail extraction into integrity-verified markdown archives that stay current.",
       "author": {
         "name": "DBHQ"
       },
@@ -26,8 +26,8 @@
         "calendar",
         "microsoft-365",
         "graph-api",
-        "pst",
-        "email-archive"
+        "email-archive",
+        "markdown"
       ]
     },
     {
@@ -57,7 +57,7 @@
         "source": "github",
         "repo": "dbhq-uk/legwork-skill"
       },
-      "description": "Multi-source research producing citation-tracked findings - evidence persistence, source credibility scoring and claim-level verification gates. Free built-in search first; paid fallback only when a page genuinely cannot be read.",
+      "description": "Decision research producing cited findings where every claim states how well it is supported. Judges a source by whether it fits the claim it backs rather than by its domain, counts corroboration only across genuinely independent sources reached from different search angles, and says plainly when the evidence cannot answer the question.",
       "author": {
         "name": "DBHQ"
       },
@@ -69,7 +69,7 @@
         "research",
         "citations",
         "evidence",
-        "web-search",
+        "decision-support",
         "fact-checking"
       ]
     },
