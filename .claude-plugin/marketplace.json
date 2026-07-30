@@ -12,7 +12,7 @@
         "source": "github",
         "repo": "dbhq-uk/outlook-graph-skill"
       },
-      "description": "A pack of Outlook skills - Microsoft 365 email and calendar via the Graph API (inbox, reply-all-safe replies, attachments up to 150 MB, calendar and availability), plus PST and live-mail extraction into integrity-verified markdown archives that stay current.",
+      "description": "Microsoft 365 mail and calendar, run from your agent - read, search, send, manage drafts and attachments, and check availability. Also turns a PST archive into searchable markdown with a SHA256 chain of custody over every message.",
       "author": {
         "name": "DBHQ"
       },
@@ -36,7 +36,7 @@
         "source": "github",
         "repo": "dbhq-uk/trello-skill"
       },
-      "description": "A pack of Trello skills - board, list and card management, shopping-list aisle sort, board status digest, and cross-board due radar.",
+      "description": "Trello end to end from your agent - boards, lists and cards, plus an instant board digest, a due-date radar for what is slipping, and smart card sorting. Four skills in one install.",
       "author": {
         "name": "DBHQ"
       },
@@ -57,7 +57,7 @@
         "source": "github",
         "repo": "dbhq-uk/legwork-skill"
       },
-      "description": "Decision research producing cited findings where every claim states how well it is supported. Judges a source by whether it fits the claim it backs rather than by its domain, counts corroboration only across genuinely independent sources reached from different search angles, and says plainly when the evidence cannot answer the question.",
+      "description": "Research that settles a decision, and says when it cannot. A source is judged by the claim it backs, sources only corroborate when they could have disagreed, and every finding states how well it is supported.",
       "author": {
         "name": "DBHQ"
       },
@@ -79,7 +79,7 @@
         "source": "github",
         "repo": "dbhq-uk/dovetail-skill"
       },
-      "description": "Check whether a repository agrees with itself - broken links, dangling heading anchors, orphaned files, duplicate content and stale translations. Deterministic, seconds to run, and it never modifies the repo it scans.",
+      "description": "Checks whether a repository still agrees with itself - dead links, moved anchors, orphaned files, documentation describing behaviour the code no longer has. The exact checks need no model and no network, so they are safe to gate a build on.",
       "author": {
         "name": "DBHQ"
       },
@@ -101,7 +101,7 @@
         "source": "github",
         "repo": "dbhq-uk/verve-skill"
       },
-      "description": "Strip AI tells from prose and put a human voice back, in British English. A catalogue of tells with before/after for each, four tone presets, three strength levels, and a scored exit gate where fidelity is a veto. Runs entirely in the conversation: no packages, no API key, no network call and no paid tier.",
+      "description": "Strips AI tells from prose and puts a human voice back, in British English. Meaning is a veto: every figure, name and claim survives. Prose only - no packages, no network, no paid tier.",
       "author": {
         "name": "DBHQ"
       },
@@ -124,7 +124,7 @@
         "source": "github",
         "repo": "dbhq-uk/vela-skill"
       },
-      "description": "Compiler-exact code search for .NET - where a symbol is defined, every reference, who calls it, and what a change breaks. Built on Roslyn, so Razor views and Blazor components are indexed rather than skipped. Deterministic, nothing resident, never modifies your repo.",
+      "description": "Compiler-exact code search for .NET - where a symbol is defined, every reference, who calls it, what a change breaks. Roslyn-backed, so Razor views and Blazor components are indexed rather than skipped.",
       "author": {
         "name": "DBHQ"
       },
