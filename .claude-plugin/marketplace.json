@@ -140,6 +140,29 @@
         "blazor",
         "code-search"
       ]
+    },
+    {
+      "name": "heliograph",
+      "source": {
+        "source": "github",
+        "repo": "dbhq-uk/heliograph-skill"
+      },
+      "description": "Debug and change a machine you cannot log into, through an operator who cannot debug it. Git is the transport in both directions: you push a step, they run one command that never changes, and the log comes back timestamped in UTC - whether the run passed or failed.",
+      "author": {
+        "name": "DBHQ"
+      },
+      "homepage": "https://dbhq.uk",
+      "repository": "https://github.com/dbhq-uk/heliograph-skill",
+      "license": "MIT",
+      "category": "development",
+      "keywords": [
+        "remote-debugging",
+        "air-gapped",
+        "diagnostics",
+        "devops",
+        "sre",
+        "incident-response"
+      ]
     }
   ]
 }
