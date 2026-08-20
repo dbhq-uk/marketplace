@@ -36,7 +36,7 @@
         "source": "github",
         "repo": "dbhq-uk/trello-skill"
       },
-      "description": "Trello end to end from your agent - boards, lists and cards, plus an instant board digest, a due-date radar for what is slipping, and smart card sorting. Four skills in one install.",
+      "description": "Trello end to end from your agent - boards, lists and cards, plus an instant board digest, a due-date radar for what is slipping, and smart card sorting. One install, the whole pack.",
       "author": {
         "name": "DBHQ"
       },
