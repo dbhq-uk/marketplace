@@ -101,7 +101,7 @@
         "source": "github",
         "repo": "dbhq-uk/verve-skill"
       },
-      "description": "Strips AI tells from prose and puts a human voice back, in British English. Meaning is a veto: every figure, name and claim survives. Prose only - no packages, no network, no paid tier.",
+      "description": "Strips AI tells from prose and puts a human voice back, in British or American English, pitched at the reader you name. Meaning is a veto: every figure, name and claim survives. Prose only - no packages, no network, no paid tier.",
       "author": {
         "name": "DBHQ"
       },
@@ -115,7 +115,11 @@
         "humanise",
         "ai-slop",
         "prose",
-        "british-english"
+        "british-english",
+        "american-english",
+        "audience",
+        "humanizer",
+        "ai-writing"
       ]
     },
     {
