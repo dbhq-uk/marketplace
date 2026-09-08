@@ -147,6 +147,56 @@
       ]
     },
     {
+      "name": "garmin",
+      "source": {
+        "source": "github",
+        "repo": "dbhq-uk/garmin-skill"
+      },
+      "description": "Garmin Connect health and fitness data from your agent - Body Battery, HRV, resting heart rate, stress, sleep stages and score, activities, VO2 max, training load, status and readiness. Answers a question live, or writes a day as a markdown snapshot and a week as a rollup you keep. Credentials stay on your machine.",
+      "author": {
+        "name": "DBHQ"
+      },
+      "homepage": "https://dbhq.uk",
+      "repository": "https://github.com/dbhq-uk/garmin-skill",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": [
+        "garmin",
+        "health",
+        "fitness",
+        "sleep",
+        "hrv",
+        "training-load",
+        "vo2max",
+        "quantified-self"
+      ]
+    },
+    {
+      "name": "gpt-image-2",
+      "source": {
+        "source": "github",
+        "repo": "dbhq-uk/gpt-image-2-skill"
+      },
+      "description": "Generate and edit images with OpenAI's GPT Image 2 - 21 style presets, platform sizing for the places images actually go, carousels with seed-locked composition, and photo edits. Drafts cost around $0.006 against $0.21 for a final, so the workflow iterates on drafts and only pays for the one you approved, and it prints the cost before it spends anything.",
+      "author": {
+        "name": "DBHQ"
+      },
+      "homepage": "https://dbhq.uk",
+      "repository": "https://github.com/dbhq-uk/gpt-image-2-skill",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": [
+        "image-generation",
+        "openai",
+        "gpt-image",
+        "carousel",
+        "photo-editing",
+        "design",
+        "social-media",
+        "openrouter"
+      ]
+    },
+    {
       "name": "heliograph",
       "source": {
         "source": "github",
