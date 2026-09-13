@@ -172,17 +172,17 @@
       ]
     },
     {
-      "name": "gpt-image-2",
+      "name": "imager",
       "source": {
         "source": "github",
-        "repo": "dbhq-uk/gpt-image-2-skill"
+        "repo": "dbhq-uk/imager-skill"
       },
       "description": "Generate and edit images with OpenAI's GPT Image 2 - 21 style presets, platform sizing for the places images actually go, carousels with seed-locked composition, and photo edits. Drafts cost around $0.006 against $0.21 for a final, so the workflow iterates on drafts and only pays for the one you approved, and it prints the cost before it spends anything.",
       "author": {
         "name": "DBHQ"
       },
       "homepage": "https://dbhq.uk",
-      "repository": "https://github.com/dbhq-uk/gpt-image-2-skill",
+      "repository": "https://github.com/dbhq-uk/imager-skill",
       "license": "MIT",
       "category": "productivity",
       "keywords": [
