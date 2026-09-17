@@ -314,17 +314,17 @@
       ]
     },
     {
-      "name": "pairwork",
+      "name": "groupwork",
       "source": {
         "source": "github",
-        "repo": "dbhq-uk/pairwork-skill"
+        "repo": "dbhq-uk/groupwork-skill"
       },
       "description": "Put a second agent on the work - as an adversary or as a partner - and get back a result you can cite. Five patterns: red-team attacks an idea without being shown your evidence, second-opinion judges your material without being shown your conclusion, verify rules on finished work against its constraints, collaborate is a peer conversation, and debate runs blind proposals into adversarial rounds. Codex, opencode or Copilot behind one provider layer, and every run records what it was told and what it was not.",
       "author": {
         "name": "DBHQ"
       },
       "homepage": "https://dbhq.uk",
-      "repository": "https://github.com/dbhq-uk/pairwork-skill",
+      "repository": "https://github.com/dbhq-uk/groupwork-skill",
       "license": "MIT",
       "category": "development",
       "keywords": [
