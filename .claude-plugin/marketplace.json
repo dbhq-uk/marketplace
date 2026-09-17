@@ -7,17 +7,17 @@
   "description": "Free, open-source Claude Code and Codex tools by DBHQ",
   "plugins": [
     {
-      "name": "outlook-graph",
+      "name": "outlook",
       "source": {
         "source": "github",
-        "repo": "dbhq-uk/outlook-graph-skill"
+        "repo": "dbhq-uk/outlook-skill"
       },
       "description": "Microsoft 365 mail and calendar, run from your agent - read, search, send, manage drafts and attachments, and check availability. Also turns a PST archive into searchable markdown with a SHA256 chain of custody over every message.",
       "author": {
         "name": "DBHQ"
       },
       "homepage": "https://dbhq.uk",
-      "repository": "https://github.com/dbhq-uk/outlook-graph-skill",
+      "repository": "https://github.com/dbhq-uk/outlook-skill",
       "license": "MIT",
       "category": "productivity",
       "keywords": [
