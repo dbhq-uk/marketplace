@@ -314,6 +314,29 @@
       ]
     },
     {
+      "name": "deskwork",
+      "source": {
+        "source": "github",
+        "repo": "dbhq-uk/deskwork-skill"
+      },
+      "description": "File what an agent notices as a tracked GitHub issue, reconcile the dependency graph, and keep a roadmap in git. Never closes an issue.",
+      "author": {
+        "name": "DBHQ"
+      },
+      "homepage": "https://dbhq.uk",
+      "repository": "https://github.com/dbhq-uk/deskwork-skill",
+      "license": "MIT",
+      "category": "development",
+      "keywords": [
+        "github-issues",
+        "project-management",
+        "issue-tracking",
+        "roadmap",
+        "orchestration",
+        "dependencies"
+      ]
+    },
+    {
       "name": "groupwork",
       "source": {
         "source": "github",
