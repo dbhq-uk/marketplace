@@ -243,6 +243,31 @@
         "issue-tracking",
         "developer-tools"
       ]
+    },
+    {
+      "name": "pennyblack",
+      "source": {
+        "source": "github",
+        "repo": "dbhq-uk/pennyblack-skill"
+      },
+      "description": "Put a PDF in the post. Physical letters from your agent - printed in the UK and delivered by Royal Mail, with Signed For, Tracked and Special Delivery, and the real tracking number handed back. Every letter is priced and previewed before you commit to it, and nothing is posted without an explicit send.",
+      "author": {
+        "name": "DBHQ"
+      },
+      "homepage": "https://dbhq.uk",
+      "repository": "https://github.com/dbhq-uk/pennyblack-skill",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": [
+        "post",
+        "letters",
+        "royal-mail",
+        "hybrid-mail",
+        "direct-mail",
+        "signed-for",
+        "pdf",
+        "uk"
+      ]
     }
   ]
 }
