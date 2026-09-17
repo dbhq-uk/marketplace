@@ -243,26 +243,28 @@
       ]
     },
     {
-      "name": "jira",
+      "name": "atlassian",
       "source": {
         "source": "github",
-        "repo": "dbhq-uk/jira-skill"
+        "repo": "dbhq-uk/atlassian-skill"
       },
-      "description": "Creates and reads Jira Cloud issues over the REST API - one issue or a batch, checking the project key, the issue type and the required fields against your Jira before it writes, and reading back with JQL. Create and read only.",
+      "description": "Jira and Confluence from your agent, over the REST API with an API token and no MCP server. Creates and reads Jira issues - one or a batch, checking the project key, the issue type and the required fields before it writes, and reading back with JQL - and searches, reads, creates and updates Confluence pages. Create and read only: no delete.",
       "author": {
         "name": "DBHQ"
       },
       "homepage": "https://dbhq.uk",
-      "repository": "https://github.com/dbhq-uk/jira-skill",
+      "repository": "https://github.com/dbhq-uk/atlassian-skill",
       "license": "MIT",
       "category": "development",
       "keywords": [
         "jira",
+        "confluence",
         "atlassian",
+        "adf",
         "issue-tracking",
+        "wiki",
         "jql",
-        "tickets",
-        "productivity"
+        "rest-api"
       ]
     },
     {
