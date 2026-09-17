@@ -268,6 +268,29 @@
         "pdf",
         "uk"
       ]
+    },
+    {
+      "name": "buildwork",
+      "source": {
+        "source": "github",
+        "repo": "dbhq-uk/buildwork-skill"
+      },
+      "description": "Run a repository's open issues as parallel agents - one per issue, each in its own git worktree and pull request - then gate them and get a merge order with reasons. Refuses to fan out when one agent would do. Never merges.",
+      "author": {
+        "name": "DBHQ"
+      },
+      "homepage": "https://dbhq.uk",
+      "repository": "https://github.com/dbhq-uk/buildwork-skill",
+      "license": "MIT",
+      "category": "development",
+      "keywords": [
+        "multi-agent",
+        "orchestration",
+        "git-worktree",
+        "github-issues",
+        "parallel",
+        "pull-requests"
+      ]
     }
   ]
 }
