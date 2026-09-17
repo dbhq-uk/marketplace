@@ -220,17 +220,17 @@
       ]
     },
     {
-      "name": "devskills",
+      "name": "gitview",
       "source": {
         "source": "github",
-        "repo": "dbhq-uk/devskills"
+        "repo": "dbhq-uk/gitview-skill"
       },
-      "description": "A pack of development skills - gitview surveys every branch and worktree and says which branches are finished, computing it by test-merging rather than trusting a commit count that a squash-merge makes meaningless, then offers to clear them away. jira creates and reads Jira Cloud issues, checking the project key, issue type and required fields before it writes.",
+      "description": "Surveys every branch and worktree in a repository and says which branches are finished, computing it by test-merging rather than trusting a commit count that a squash-merge makes meaningless, then offers to clear them away - re-verifying each branch immediately before it goes.",
       "author": {
         "name": "DBHQ"
       },
       "homepage": "https://dbhq.uk",
-      "repository": "https://github.com/dbhq-uk/devskills",
+      "repository": "https://github.com/dbhq-uk/gitview-skill",
       "license": "MIT",
       "category": "development",
       "keywords": [
@@ -238,10 +238,31 @@
         "worktree",
         "branches",
         "pull-requests",
+        "developer-tools",
+        "housekeeping"
+      ]
+    },
+    {
+      "name": "jira",
+      "source": {
+        "source": "github",
+        "repo": "dbhq-uk/jira-skill"
+      },
+      "description": "Creates and reads Jira Cloud issues over the REST API - one issue or a batch, checking the project key, the issue type and the required fields against your Jira before it writes, and reading back with JQL. Create and read only.",
+      "author": {
+        "name": "DBHQ"
+      },
+      "homepage": "https://dbhq.uk",
+      "repository": "https://github.com/dbhq-uk/jira-skill",
+      "license": "MIT",
+      "category": "development",
+      "keywords": [
         "jira",
         "atlassian",
         "issue-tracking",
-        "developer-tools"
+        "jql",
+        "tickets",
+        "productivity"
       ]
     },
     {
