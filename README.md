@@ -1,25 +1,45 @@
 <div align="center">
 
-# 🧰 DBHQ Tools - Claude Code marketplace
+<img src="assets/logo.svg" alt="DBHQ marketplace - fifteen free agent skills for Claude Code and Codex" width="560">
 
-**Free, open-source Claude Code and Codex tools by [DBHQ](https://dbhq.uk)**
+# DBHQ marketplace
+
+**Fifteen free, open-source agent skills for Claude Code and Codex**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude_Code-Marketplace-blueviolet)](https://code.claude.com/docs/en/plugin-marketplaces)
+[![Documented](https://img.shields.io/badge/Documented-skills.dbhq.uk-2AD4C5)](https://skills.dbhq.uk)
+
+Every one is documented at **[skills.dbhq.uk](https://skills.dbhq.uk)** - including what each deliberately does not do
 
 </div>
 
 ---
 
-This is the DBHQ plugin marketplace for [Claude Code](https://code.claude.com/docs/en/plugins). Add it once, then install any of the tools below with a single command.
+## Two commands, then you have it
+
+Add the marketplace once:
 
 ```
 /plugin marketplace add dbhq-uk/marketplace
 ```
 
-## Plugins
+Then install any skill by name:
 
-Install any of them with `/plugin install <name>@dbhq`.
+```
+/plugin install <name>@dbhq
+```
+
+Both work in [Claude Code](https://code.claude.com/docs/en/plugins) and in
+Codex. Every skill also installs without the marketplace - `npx skills add
+dbhq-uk/<repo>` through [skills.sh](https://skills.sh), or a clone and
+`./install.sh` - and each repository's README carries all three routes.
+
+**Nothing here is a paid tier, a trial, or a thing that phones home.** They are
+MIT, they run on your machine, and the ones that talk to a third-party API use
+your own credential and say so on their page.
+
+## Plugins
 
 | Plugin | What it does |
 |---|---|
@@ -36,13 +56,31 @@ Install any of them with `/plugin install <name>@dbhq`.
 | 🏷️ **[atlassian](https://github.com/dbhq-uk/atlassian-skill)**<br>`atlassian@dbhq` | Jira and Confluence over the REST API, with an API token and no MCP server. Creates and reads Jira issues - one or a batch, checking the project key, the issue type and the required fields before it writes, so the create call is right the first time - and searches, reads, creates and updates Confluence pages. Create and read only: no delete, no bulk transition, and the token never reaches a command line |
 | 📮 **[pennyblack](https://github.com/dbhq-uk/pennyblack-skill)**<br>`pennyblack@dbhq` | Put a PDF in the post. Printed in the UK and delivered by Royal Mail, with Signed For, Tracked 24/48 and Special Delivery, and the real tracking number handed back and kept. Your PDF goes in the envelope exactly as it is - nothing is re-typeset. Every letter is priced and previewed before you commit, and there is deliberately no command that writes and posts in one go |
 | 🏗️ **[buildwork](https://github.com/dbhq-uk/buildwork-skill)**<br>`buildwork@dbhq` | Runs a repository's open issues as parallel agents - one per issue, each in its own git worktree and its own pull request - then gates them and proposes a merge order with reasons. Refuses to fan out when one agent would do the job, and says why. Never merges and has no merge verb, so nothing it does can reach production on its own |
+| 🗂️ **[deskwork](https://github.com/dbhq-uk/deskwork-skill)**<br>`deskwork@dbhq` | Files what an agent noticed as a tracked GitHub issue, keeps the dependency graph between issues honest, and writes a roadmap into git carrying the date, the issue count behind it and a line of reasoning per call - so the ordering can be argued with rather than trusted. Never closes an issue and has no close verb |
 | 🤝 **[groupwork](https://github.com/dbhq-uk/groupwork-skill)**<br>`groupwork@dbhq` | Puts a second agent on the work, as an adversary or as a partner. Five named patterns, and what makes each one worth citing is what it is refused: red-team attacks an idea without being shown your evidence, second-opinion judges your material without being shown your conclusion, verify rules on finished work against its constraints, collaborate is a peer conversation, debate runs blind proposals into adversarial rounds. Codex, opencode or Copilot behind one provider layer, and every run records what it was told and what it was not |
 
-More tools land here as we build them. Each plugin lives in its own repository under [github.com/dbhq-uk](https://github.com/dbhq-uk) and is free to use under the MIT licence.
+Each plugin lives in its own repository under
+[github.com/dbhq-uk](https://github.com/dbhq-uk), carries its own tests and CI,
+and is free to use under the MIT licence. More land here as they are built.
+
+## Why these exist
+
+Every one came out of delivery work rather than from a list of things an agent
+could plausibly do, and that shows up in what they refuse. `pennyblack` will
+not draft and post a letter in one command, because physical post cannot be
+recalled. `buildwork` has no merge verb at all. `deskwork` cannot close an
+issue. `gitview` never deletes a branch itself. `groupwork` runs its
+adversarial pattern with no access to your repository, and records what it was
+withheld at the moment of the run rather than afterwards.
+
+Each page on [skills.dbhq.uk](https://skills.dbhq.uk) states those boundaries
+in the skill's own words, because that block is the reason the rest of the page
+is worth reading.
 
 ## About DBHQ
 
-DBHQ builds and ships AI and cloud engineering - and gives away the small tools we build along the way. [dbhq.uk](https://dbhq.uk)
+DBHQ builds and ships AI and cloud engineering, and gives away the small tools
+built along the way. [dbhq.uk](https://dbhq.uk)
 
 ## License
 
