@@ -365,6 +365,30 @@
         "codex",
         "provenance"
       ]
+    },
+    {
+      "name": "headwork",
+      "source": {
+        "source": "github",
+        "repo": "dbhq-uk/headwork-skill"
+      },
+      "description": "Think a decision through, one question at a time - in plain English, with a recommendation you can argue with.",
+      "author": {
+        "name": "DBHQ"
+      },
+      "homepage": "https://dbhq.uk",
+      "repository": "https://github.com/dbhq-uk/headwork-skill",
+      "license": "MIT",
+      "category": "development",
+      "keywords": [
+        "decision-making",
+        "decision-support",
+        "prompt-engineering",
+        "developer-tools",
+        "agent-tooling",
+        "productivity",
+        "unblock"
+      ]
     }
   ]
 }
