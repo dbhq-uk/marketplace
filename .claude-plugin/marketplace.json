@@ -372,7 +372,7 @@
         "source": "github",
         "repo": "dbhq-uk/headwork-skill"
       },
-      "description": "Think a decision through, one question at a time - in plain English, with a recommendation you can argue with.",
+      "description": "Think a decision through, one question at a time, with a recommendation you can argue with - it names one option, gives the reason, and says what would overturn it.",
       "author": {
         "name": "DBHQ"
       },
