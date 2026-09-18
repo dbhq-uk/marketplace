@@ -129,7 +129,7 @@
         "source": "github",
         "repo": "dbhq-uk/vela-skill"
       },
-      "description": "Compiler-exact code search for .NET - where a symbol is defined, every reference, who calls it, what a change breaks. Roslyn-backed, so Razor views and Blazor components are indexed rather than skipped.",
+      "description": "Compiler-exact code search over a SCIP index - where a symbol is defined, every reference, who calls it, what a change breaks. .NET is indexed natively through Roslyn, so Razor views and Blazor components are included rather than skipped; any other language reaches the same database through its own SCIP indexer.",
       "author": {
         "name": "DBHQ"
       },
@@ -143,7 +143,10 @@
         "roslyn",
         "razor",
         "blazor",
-        "code-search"
+        "code-search",
+        "scip",
+        "code-intelligence",
+        "multi-language"
       ]
     },
     {
