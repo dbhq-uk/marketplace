@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="assets/logo.svg" alt="DBHQ marketplace - fifteen free agent skills for Claude Code and Codex" width="560">
+<img src="assets/logo.svg" alt="DBHQ marketplace - free, open-source agent skills for Claude Code and Codex" width="560">
 
 # DBHQ marketplace
 
-**Fifteen free, open-source agent skills for Claude Code and Codex**
+**Free, open-source agent skills for Claude Code and Codex**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude_Code-Marketplace-blueviolet)](https://code.claude.com/docs/en/plugin-marketplaces)
