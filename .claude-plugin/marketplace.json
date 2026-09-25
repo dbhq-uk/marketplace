@@ -36,7 +36,7 @@
         "source": "github",
         "repo": "dbhq-uk/trello-skill"
       },
-      "description": "Trello end to end from your agent - boards, lists and cards, plus an instant board digest, a due-date radar for what is slipping, and smart card sorting. One install, the whole pack.",
+      "description": "Five Trello skills for Claude Code and Codex: trello manages boards, lists and cards, store-sort puts a shopping list in aisle order, board-digest summarises a board, due-radar shows what is due across boards, and life-manager runs a personal board that gets things done.",
       "author": {
         "name": "DBHQ"
       },
@@ -155,7 +155,7 @@
         "source": "github",
         "repo": "dbhq-uk/garmin-skill"
       },
-      "description": "Garmin Connect health and fitness data from your agent - Body Battery, HRV, resting heart rate, stress, sleep stages and score, activities, VO2 max, training load, status and readiness. Answers a question live, or writes a day as a markdown snapshot and a week as a rollup you keep. Credentials stay on your machine.",
+      "description": "Garmin Connect health and fitness data from your agent - Body Battery, HRV, resting heart rate, stress, sleep stages and score, activities, VO2 max, training load, status and readiness. Answers a question live, or writes a day as a markdown snapshot and a week as a rollup you keep. Your password is never stored, and it talks to Garmin and nothing else.",
       "author": {
         "name": "DBHQ"
       },
@@ -180,7 +180,7 @@
         "source": "github",
         "repo": "dbhq-uk/imager-skill"
       },
-      "description": "Generate and edit images with OpenAI's GPT Image 2 - 27 style presets, platform sizing for the places images actually go, carousels with seed-locked composition, and photo edits. Drafts cost around $0.006 against $0.21 for a final, so the workflow iterates on drafts and only pays for the one you approved, and it prints the cost before it spends anything.",
+      "description": "Generate and edit images with OpenAI's GPT Image models, gpt-image-2.5-flare by default - 27 style presets, platform sizing for the places images actually go, transparent backgrounds, masked edits and carousels held together by a reference image. Drafts cost around $0.006 against $0.053 for a high-quality final, so the workflow iterates on drafts and only pays for the one you approved, and it prices every run before sending it.",
       "author": {
         "name": "DBHQ"
       },
@@ -195,8 +195,7 @@
         "carousel",
         "photo-editing",
         "design",
-        "social-media",
-        "openrouter"
+        "social-media"
       ]
     },
     {
@@ -251,7 +250,7 @@
         "source": "github",
         "repo": "dbhq-uk/atlassian-skill"
       },
-      "description": "Jira and Confluence from your agent, over the REST API with an API token and no MCP server. Creates and reads Jira issues - one or a batch, checking the project key, the issue type and the required fields before it writes, and reading back with JQL - and searches, reads, creates and updates Confluence pages. Create and read only: no delete.",
+      "description": "Jira and Confluence from your agent, over the REST API with an API token and no MCP server. Creates, reads and comments on Jira issues - one or a batch, checking the project key, the issue type and the required fields before it writes - and moves one at a time through its workflow. Searches, reads, creates and updates Confluence pages, changing one block without converting the rest, and publishes a markdown file to a page. Never deletes.",
       "author": {
         "name": "DBHQ"
       },
@@ -267,7 +266,9 @@
         "issue-tracking",
         "wiki",
         "jql",
-        "rest-api"
+        "rest-api",
+        "cql",
+        "documentation"
       ]
     },
     {
@@ -276,7 +277,7 @@
         "source": "github",
         "repo": "dbhq-uk/pennyblack-skill"
       },
-      "description": "Put a PDF in the post. Physical letters from your agent - printed in the UK and delivered by Royal Mail, with Signed For, Tracked and Special Delivery, and the real tracking number handed back. Every letter is priced and previewed before you commit to it, and nothing is posted without an explicit send.",
+      "description": "Put a PDF in the post. Physical letters from your agent - printed in the UK and delivered by Royal Mail, with Signed For, Tracked and Special Delivery, and the tracking number recorded once Royal Mail issues it. Every letter is priced and previewed before you commit to it, and nothing is posted without an explicit send.",
       "author": {
         "name": "DBHQ"
       },
@@ -337,7 +338,7 @@
         "project-management",
         "issue-tracking",
         "roadmap",
-        "orchestration",
+        "dependency-graph",
         "dependencies"
       ]
     },
@@ -347,7 +348,7 @@
         "source": "github",
         "repo": "dbhq-uk/groupwork-skill"
       },
-      "description": "Put a second agent on the work - as an adversary or as a partner - and get back a result you can cite. Five patterns: red-team attacks an idea without being shown your evidence, second-opinion judges your material without being shown your conclusion, verify rules on finished work against its constraints, collaborate is a peer conversation, and debate runs blind proposals into adversarial rounds. Codex, opencode or Copilot behind one provider layer, and every run records what it was told and what it was not.",
+      "description": "Blind, independent review by a second model, before something ships, with a citation of what it was not shown. Four patterns: red-team attacks an idea without being shown your evidence, second-opinion judges your material without being shown your conclusion, verify rules on finished work against stated constraints, and panel puts one hard question to two or more agents at once, each answering alone. Runs on Codex or opencode behind one provider layer, and records what each run was told and what it was not.",
       "author": {
         "name": "DBHQ"
       },
@@ -363,6 +364,7 @@
         "cross-model",
         "multi-agent",
         "codex",
+        "opencode",
         "provenance"
       ]
     },
