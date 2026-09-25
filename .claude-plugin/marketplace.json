@@ -79,7 +79,7 @@
         "source": "github",
         "repo": "dbhq-uk/dovetail-skill"
       },
-      "description": "Checks whether a repository still agrees with itself - dead links, moved anchors, orphaned files, documentation describing behaviour the code no longer has. The exact checks need no model and no network, so they are safe to gate a build on.",
+      "description": "Checks whether a repository still agrees with itself - dead links, moved anchors, orphaned files and duplicated content from seventeen deterministic checks, and contradictions and stale documentation from model reviewers. The checks need no model and no network, and by default only proven findings gate a build.",
       "author": {
         "name": "DBHQ"
       },
@@ -129,7 +129,7 @@
         "source": "github",
         "repo": "dbhq-uk/vela-skill"
       },
-      "description": "Compiler-exact code search over a SCIP index - where a symbol is defined, every reference, who calls it, what a change breaks. .NET is indexed natively through Roslyn, so Razor views and Blazor components are included rather than skipped; any other language reaches the same database through its own SCIP indexer.",
+      "description": "Compiler-exact code search over a SCIP index - where a symbol is defined, every reference, its direct callers and what implements it. .NET is indexed natively through Roslyn, with Razor and Blazor references resolved by the compiler into a saved index; any other language reaches the same database through its own SCIP indexer. The plugin installs the skill; the vela command comes from the repository's installer.",
       "author": {
         "name": "DBHQ"
       },
